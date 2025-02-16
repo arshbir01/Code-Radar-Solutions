@@ -8,9 +8,10 @@ int main()
         prinf(a);
     }
     else if(b>a){
-        prinf(b)
+        prinf(b);
     }
     else{
-        printf("")
+        printf("");
     }
+    return 0;
 }
