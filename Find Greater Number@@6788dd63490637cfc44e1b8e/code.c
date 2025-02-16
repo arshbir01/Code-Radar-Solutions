@@ -30,11 +30,8 @@ int main()
     if(a > b) {
         printf("%d\n", a);  // Print a if a is greater than b
     }
-    else if(b > a) {
+    else(b > a) {
         printf("%d\n", b);  // Print b if b is greater than a
-    }
-    else {
-        printf("");  // If both are equal
     }
     
     return 0;
