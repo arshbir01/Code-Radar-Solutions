@@ -1,5 +1,27 @@
+// #include <stdio.h>
+// #include <ctype.h>  // Include this library for isupper() and islower()
+
+// int main() 
+// {
+//     char ch;
+//     printf("");
+//     scanf("%c", &ch);
+
+//     if (isupper(ch)) {
+//         printf("Uppercase");
+//     } else if (islower(ch)) {
+//         printf("Lowercase");
+//     } else {
+//         printf("Not an alphabet");
+//     }
+
+//     return 0;
+// }
+
+
+
+
 #include <stdio.h>
-#include <ctype.h>  // Include this library for isupper() and islower()
 
 int main() 
 {
@@ -7,9 +29,12 @@ int main()
     printf("");
     scanf("%c", &ch);
 
-    if (isupper(ch)) {
+    // Check if the character is uppercase
+    if (ch >= 'A' && ch <= 'Z') {
         printf("Uppercase");
-    } else if (islower(ch)) {
+    }
+    // Check if the character is lowercase
+    else if (ch >= 'a' && ch <= 'z') {
         printf("Lowercase");
     } else {
         printf("Not an alphabet");
@@ -17,3 +42,5 @@ int main()
 
     return 0;
 }
+
+
