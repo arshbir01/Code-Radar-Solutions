@@ -24,7 +24,7 @@
 int main()
 {
     int a, b;
-    printf("Enter two integers: ");
+    printf("");
     scanf("%d %d", &a, &b);  // Read two integers from the user
     
     if(a > b) {
